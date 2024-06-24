@@ -1,12 +1,12 @@
 //import React from 'react';
 //import Hero from '../Hero';
-import HomeSection from '../HomePage/HomeSection';
-import InsurancePlans from '../HomePage/InsurancePlans';
-import Welcome from '../HomePage/Welcome';
-import Qualities from '../HomePage/Qualities';
-import Steps from '../HomePage/Steps';
-import Layout from '../Layout';
-import ContactForm from '../Forms/ContactForm';
+import HomeSection from '../HomePage/HomeSection.jsx';
+import InsurancePlans from '../HomePage/InsurancePlans.jsx';
+import Welcome from '../HomePage/Welcome.jsx';
+import Qualities from '../HomePage/Qualities.jsx';
+import Steps from '../HomePage/Steps.jsx';
+import Layout from '../Layout.jsx';
+import ContactForm from '../Forms/ContactForm.jsx';
 
 const LandingPage = () => {
 	return (
