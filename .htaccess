@@ -14,7 +14,10 @@ RewriteEngine On
 RewriteBase /
 
 # Exclude server-side code directory from rewriting
-RewriteRule ^server/(.*)$ - [L]
+#RewriteRule ^server/(.*)$ - [L]
 
 # Rewrite all other requests to the client-side index.html
+ RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+ RewriteCond %{REQUEST_FILENAME} !-l
 RewriteRule ^(.+)$ client/index.html [L]
