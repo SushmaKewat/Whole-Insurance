@@ -1,8 +1,20 @@
  # React Router
-  RewriteEngine On
-  RewriteBase /
-  RewriteRule ^index\.html$ - [L]
-  RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteCond %{REQUEST_FILENAME} !-d
-  RewriteCond %{REQUEST_FILENAME} !-l
-  RewriteRule . /index.html [L]
+#RewriteEngine On
+ # RewriteBase /
+  #RewriteRule ^index\.html$ - [L]
+  #RewriteCond %{REQUEST_FILENAME} !-f
+  #RewriteCond %{REQUEST_FILENAME} !-d
+ # RewriteCond %{REQUEST_FILENAME} !-l
+  #RewriteRule . /index.html [L] 
+
+  # Enable mod_rewrite
+RewriteEngine On
+
+# Rewrite all requests to the Node.js server
+RewriteBase /
+
+# Exclude static files (client-side code) from rewriting
+RewriteRule ^client/(.*)$ - [L]
+
+# Rewrite all other requests to the Node.js server entry point (replace 'index.js' if different)
+RewriteRule ^(.+)$ server/index.js [L]
