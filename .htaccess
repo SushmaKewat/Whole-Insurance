@@ -1,7 +1,7 @@
  # React Router
 RewriteEngine On
  RewriteBase /
- 
+
  RewriteRule ^client/(.*)?$ http://127.0.0.1:3000/$1 [P,L]
 
   RewriteRule ^index\.html$ - [L]
@@ -11,10 +11,9 @@ RewriteEngine On
   RewriteRule . client/index.html [L] 
 
 # Enable mod_rewrite
-RewriteEngine On
 
 # Rewrite all requests to the client-side code directory
-RewriteBase /
+
 
 # Exclude server-side code directory from rewriting
 #RewriteRule ^server/(.*)$ - [L]
