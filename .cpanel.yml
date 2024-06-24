@@ -1,5 +1,5 @@
 ---
 deployment:
     tasks:
-        - export DEPLOYPATH=/home/wsy9a6uy7zwz/public_html/insurancewhole.ca/
+        - export DEPLOYPATH=/home/wsy9a6uy7zwz/public_html/wholeinsurance.ca/
         - /bin/cp -r * $DEPLOYPATH
