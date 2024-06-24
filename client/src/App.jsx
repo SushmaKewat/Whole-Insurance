@@ -1,6 +1,6 @@
-import LandingPage from './components/Pages/LandingPage';
+import LandingPage from './components/Pages/LandingPage.jsx';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import AboutUs from './components/Pages/AboutUs';
+import AboutUs from './components/Pages/AboutUs.jsx';
 import ContactUs from './components/Pages/ContactUs.jsx';
 
 import CriticalIllnessInsurance from './components/Pages/Services/CriticalIllnessInsurance.jsx';
