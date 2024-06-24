@@ -7,14 +7,14 @@
  # RewriteCond %{REQUEST_FILENAME} !-l
   #RewriteRule . /index.html [L] 
 
-  # Enable mod_rewrite
+# Enable mod_rewrite
 RewriteEngine On
 
-# Rewrite all requests to the Node.js server
+# Rewrite all requests to the client-side code directory
 RewriteBase /
 
-# Exclude static files (client-side code) from rewriting
-RewriteRule ^client/(.*)$ - [L]
+# Exclude server-side code directory from rewriting
+RewriteRule ^server/(.*)$ - [L]
 
-# Rewrite all other requests to the Node.js server entry point (replace 'index.js' if different)
-RewriteRule ^(.+)$ server/index.js [L]
+# Rewrite all other requests to the client-side index.html
+RewriteRule ^(.+)$ client/index.html [L]
