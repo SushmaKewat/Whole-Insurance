@@ -1,11 +1,11 @@
  # React Router
-#RewriteEngine On
- # RewriteBase /
-  #RewriteRule ^index\.html$ - [L]
-  #RewriteCond %{REQUEST_FILENAME} !-f
-  #RewriteCond %{REQUEST_FILENAME} !-d
- # RewriteCond %{REQUEST_FILENAME} !-l
-  #RewriteRule . /index.html [L] 
+RewriteEngine On
+ RewriteBase /
+  RewriteRule ^index\.html$ - [L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+ RewriteCond %{REQUEST_FILENAME} !-l
+  RewriteRule . client/index.html [L] 
 
 # Enable mod_rewrite
 RewriteEngine On
@@ -17,7 +17,7 @@ RewriteBase /
 #RewriteRule ^server/(.*)$ - [L]
 
 # Rewrite all other requests to the client-side index.html
- RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteCond %{REQUEST_FILENAME} !-d
- RewriteCond %{REQUEST_FILENAME} !-l
-RewriteRule ^(.+)$ client/index.html [L]
+ #RewriteCond %{REQUEST_FILENAME} !-f
+ # RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteCond %{REQUEST_FILENAME} !-l
+#RewriteRule ^(.+)$ client/index.html [L]
