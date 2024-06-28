@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
-import Layout from './Layout';
-import CallTo from './CallTo';
+import Layout from './Layout.jsx';
+import CallTo from './CallTo.jsx';
 import Image from '../assets/Images/insurance.jpg';
 
 const Dummy = ({ title, service, image }) => {

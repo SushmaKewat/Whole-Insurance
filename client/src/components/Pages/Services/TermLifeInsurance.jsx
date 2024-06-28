@@ -1,4 +1,4 @@
-import Dummy from '../../Dummy';
+import Dummy from '../../Dummy.jsx';
 import { TermLife } from '../../../assets/Data/services.js';
 import Image from '../../../assets/Images/term life insurance.jpg';
 

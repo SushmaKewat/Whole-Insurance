@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
-import Layout from '../../Layout';
-import { AllServices } from '../../../assets/Data/services';
-import CallTo from '../../CallTo';
+import Layout from '../../Layout.jsx';
+import { AllServices } from '../../../assets/Data/services.js';
+import CallTo from '../../CallTo.jsx';
 
 import Image from '../../../assets/Images/rrsp.jpg';
 

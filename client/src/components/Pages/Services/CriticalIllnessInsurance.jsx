@@ -1,4 +1,4 @@
-import Dummy from '../../Dummy';
+import Dummy from '../../Dummy.jsx';
 import { CriticalIllness } from '../../../assets/Data/services.js';
 import Image from '../../../assets/Images/critical-illness insurance.jpg';
 

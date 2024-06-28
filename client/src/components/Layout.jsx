@@ -1,8 +1,8 @@
 import React from 'react';
 
 import { Helmet } from 'react-helmet';
-import Hero from './Hero';
-import FooterPage from './FooterPage';
+import Hero from './Hero.jsx';
+import FooterPage from './FooterPage.jsx';
 
 const Layout = ({ children, title, description, keywords, author }) => {
 	return (

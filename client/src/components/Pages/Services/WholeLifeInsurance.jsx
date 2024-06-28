@@ -1,4 +1,4 @@
-import Dummy from '../../Dummy';
+import Dummy from '../../Dummy.jsx';
 import { WholeLife } from '../../../assets/Data/services.js';
 import Image from '../../../assets/Images/whole-life insurance.jpg';
 

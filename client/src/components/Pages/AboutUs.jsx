@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react/jsx-no-comment-textnodes */
-import Layout from '../Layout';
-import CallTo from '../CallTo';
+import Layout from '../Layout.jsx';
+import CallTo from '../CallTo.jsx';
 import Image from '../../assets/Images/rrsp.jpg';
 
 const AboutUs = () => {

@@ -1,4 +1,4 @@
-import Dummy from '../../Dummy';
+import Dummy from '../../Dummy.jsx';
 import { Disability } from '../../../assets/Data/services.js';
 import Image from '../../../assets/Images/disability insurance.jpg';
 

@@ -1,5 +1,5 @@
-import Layout from '../Layout';
-import ContactForm from '../Forms/ContactForm';
+import Layout from '../Layout.jsx';
+import ContactForm from '../Forms/ContactForm.jsx';
 import CallTo from '../CallTo.jsx';
 
 import { FaPhoneAlt } from 'react-icons/fa';
@@ -23,7 +23,7 @@ const ContactUs = () => {
 								<FaPhoneAlt />
 								<span className='ml-2'>Telephone</span>
 							</p>
-							<p className='text-lg'>+1 905-582-0178</p>
+							<p className='text-lg'>+1-6479630700</p>
 						</div>
 						{/* <div className='mb-4'>
 						<p className='font-bold text-xl flex flex-row text-shade9'>

@@ -47,7 +47,7 @@ const FooterPage = () => {
 								Main Address : 1670 North Service Rd E, Unit -107 Oakville ON L6H
 								7G3, Canada
 							</p>
-							<p>Call Us : +1 905-582-0178</p>
+							<p>Call Us : +1-6479630700</p>
 							{/* <p>E-mail : info@insurance.com</p> */}
 						</div>
 					</div>
